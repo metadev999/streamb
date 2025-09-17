@@ -573,20 +573,36 @@ function fe() {
     return e.jsx("div", {
         className: "fixed inset-0 z-[100] flex items-center justify-center bg-background/95 backdrop-blur-sm",
         children: e.jsxs("div", {
-            className: "relative text-center",
-            children: [e.jsx("div", {
-                className: "glitch-text casino-heading neon-blue retro-heading select-none",
-                "data-text": "StreamBet.fun",
-                children: "StreamBet.fun"
-            }), e.jsx("div", {
-                className: "mt-2 text-sm text-brand-green-light/70 tracking-wider glitch-flicker",
-                children: "Loading…"
-            }), e.jsx("div", {
-                className: "scanlines pointer-events-none"
-            })]
+            className: "relative text-center flex flex-col items-center",
+            children: [
+                e.jsxs("div", {
+                    className: "flex items-center justify-center space-x-4", // flex container for text + image
+                    children: [
+                        e.jsx("img", {
+                            src: "logo.png", // replace with your image path
+                            alt: "Logo",
+                            className: "w-12 h-12" // adjust size as needed
+                        }),
+                        e.jsx("div", {
+                            className: "glitch-text casino-heading neon-blue retro-heading select-none",
+                            "data-text": "StreamBet.funs",
+                            children: "StreamBet.funs"
+                        })
+                        
+                    ]
+                }),
+                e.jsx("div", {
+                    className: "mt-2 text-sm text-brand-green-light/70 tracking-wider glitch-flicker",
+                    children: "Loading…"
+                }),
+                e.jsx("div", {
+                    className: "scanlines pointer-events-none"
+                })
+            ]
         })
     })
 }
+
 
 function V(s) {
     const t = s.trim().toLowerCase(),
