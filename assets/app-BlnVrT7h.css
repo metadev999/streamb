@@ -3411,10 +3411,10 @@
 }
 
 .casino-v2 .casino-button {
-        background: linear-gradient(90deg, #9146FF, #FF4FD8);
+    background: linear-gradient(90deg, #9146FF, #FF4FD8);
     padding: 2px 22px;
     border-radius: 30px;
-    font-size: 1.2rem;
+    font-size: 1em;
     font-weight: 700;
     margin-top: 1.5rem;
     display: inline-block;
@@ -3424,7 +3424,7 @@ ease, box-shadow 0.2s
 ease;
     margin: 0;
     vertical-align: middle;
-    height: 50px;
+    height: 42px;
     color: #fff;
 }
 
@@ -3608,6 +3608,7 @@ ease;
     justify-content: center;
     color: #aaa;
     font-size: 0.9rem; 
+    overflow: hidden;
 }
 
 .casino-v2.retro-00s .retro-card:hover {
@@ -3634,10 +3635,10 @@ ease;
 }
 
 .casino-v2.retro-00s .retro-button {
-         background: linear-gradient(90deg, #9146FF, #FF4FD8);
-    padding: 2px 22px;
+    background: linear-gradient(90deg, #9146FF, #FF4FD8);
+    padding: 2px 10px;
     border-radius: 30px;
-     font-size: 1.2rem;  
+    font-size: 1em;
     font-weight: 700;
     margin-top: 1.5rem;
     display: inline-block;
@@ -3647,13 +3648,17 @@ ease, box-shadow 0.2s
 ease;
     margin: 0;
     vertical-align: middle;
-    height: 50px;
+    height: 42px;
     color: #fff;
 }
 
 .casino-v2.retro-00s .retro-button:hover {
        transform: scale(1.05);
     box-shadow: 0 0 15px #FF4FD8;
+}
+.slideup .px-8 {
+    display: none;
+
 }
 
 

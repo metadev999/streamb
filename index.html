@@ -58,11 +58,20 @@
     <link rel="icon" type="image/webp" href="/logo.webp" />
     <link rel="stylesheet" href="/assets/app-BlnVrT7h.css" />
 
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
     <style>
+
+        h1,h2,h3,h4,p,span,div,body,button{
+ font-family: 'Quicksand', sans-serif !important;
+}
         span.logofront.retro-underline.gap-3 img {
    width: 53px;
     height: 53px;
 } 
+.bartop >span { 
+    font-weight: bold;
+}
 header {
     box-shadow: #0003 0 4px 6px -1px, #0000001f 0 2px 4px -1px;
     
@@ -70,11 +79,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
-}
-.casino-v2 {
-
-        background: #76b6e0 !important;
-}
+} 
 .imaget  {
     width: 250px !important;
     height: 100% !important;
@@ -84,6 +89,10 @@ span.titlebox  {
     display: block;
     background: #120b22;
     padding: 14px;
+}
+.casino-v2 .neon-cyan {
+    text-shadow: 0 0 0px #e04ce3, 0 0 0px #e54de2, 0 0 20px #fdfdfd47 !important;
+    color: #b735aedd !important;
 }
 /* CSS */
 .online-dot {      /* makes it a circle */
@@ -291,17 +300,83 @@ ease;
        width: 400px !important;
      
   }
+  button.h-9.px-3.text-sm.rounded-md {
+    background: none;
+}
 
-  @media (max-width: 640px) {
-   .sidebar{
+  @media (max-width: 740px) {
+  .sidebar {
     position: fixed;
-   }
+    left: 13px;
+    top: 162px;
+    width: auto;
+    height: auto;
+    transition: left 0.3s 
+ease;
+    padding-top: 20px;
+    z-index: 1;
+}
+
    .slideup {
     padding: 0;
    }
    .casino-v2 .casino-panel{
     margin: 0;
    }
+   .anitop {
+    
+    padding-left: 0;
+    }
+    .bartop >span { 
+    font-size: 19px;
+    }
+    .casino-v2 .casino-button,
+
+    body .heads button {
+     padding: 0px 15px !important;
+     font-size: 11px !important;
+             height: 39px !important; 
+    }
+    span.logofront.retro-underline.gap-3 img {
+        width: 30px;
+        height: 30px;
+    }
+    span.text-xl.font-bold.tracking-wide.casino-heading-blue.neon-blue {
+    font-size: 15px;
+    }
+    .glitch-text{
+        font-size: 20px !important;
+    }
+    .bartop button.inline-flex{
+        display: none;
+
+    }
+    .bartop button.inline-flex:nth-child(3){
+        display: block;
+        width: 301px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .bartop button.inline-flex:nth-child(3) img{
+        width: 50% !important;
+        height: auto !important;
+        margin:  0 auto;
+    }
+    .marquee-track button.inline-flex:before{
+          top: 10px;
+        left: 28px;
+    }
+   body .casino-v2.retro-00s .retro-heading {
+            color: #e24de2;
+    font-size: 32px; 
+    }
+    .mt-3.flex.items-center.gap-2 {
+        justify-content: space-between;
+    }
+
 }
     </style>
 </head>
