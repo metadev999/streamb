@@ -3713,7 +3713,7 @@ ease;
 
 .glitch-text {
     letter-spacing: .08em;
-    text-shadow: 0 0 6px #00ffaa59, 0 0 18px #0fa3;
+    text-shadow: 0 0 6px #c82ddf59, 0 0 18px rgba(255, 53, 228, 0.2);
     font-size: 28px;
     animation: 1.8s linear infinite glitch-shift;
     position: relative
@@ -3730,15 +3730,15 @@ ease;
 }
 
 .glitch-text:before {
-    color: #00ffaae6;
-    filter: drop-shadow(0 0 4px #0fa6);
+    color: #f64fffe6;
+    filter: drop-shadow(0 0 4px rgba(79, 74, 239, 0.4));
     animation: 1.2s steps(2, end) infinite glitch-before;
     transform: translate(2px)
 }
 
 .glitch-text:after {
-    color: #0099ffe6;
-    filter: drop-shadow(0 0 4px #0099ff59);
+    color: #d614fde6;
+    filter: drop-shadow(0 0 4px #a624d959);
     animation: 1.4s steps(2, end) infinite glitch-after;
     transform: translate(-2px)
 }
